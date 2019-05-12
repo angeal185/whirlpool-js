@@ -231,7 +231,6 @@ function WP() {
   }
 
   function hex2Uint(hex, buf){
-    console.log(hex)
     var view = new Uint8Array(hex.length / 2)
     for (var i = 0; i < hex.length; i += 2) {
       view[i / 2] = parseInt(hex.substring(i, i + 2), 16)

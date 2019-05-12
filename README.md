@@ -38,7 +38,7 @@ const wp = require('whirlpool-js');
 * base64: returns hash as a base64 encoded string
 * bytes: returns hash as a byte string
 * Uint8: returns hash as a Uint8Array
-* Uint8Buffer: returns hash as an arraybuffer
+* ArrayBuffer: returns hash as an arraybuffer
 
 #### API
 
@@ -47,7 +47,7 @@ const wp = require('whirlpool-js');
 /**
  *  sync
  *  @param {string} str ~ valid string to be hashed
- *  @param {string} digest ~ hex/base64/Uint8/Uint8Buffer/bytes
+ *  @param {string} digest ~ hex/base64/Uint8/ArrayBuffer/bytes
  **/
 wp.encSync(str, digest)
 
@@ -55,7 +55,7 @@ wp.encSync(str, digest)
 /**
  *  callback
  *  @param {string} str ~ valid string to be hashed
- *  @param {string} digest ~ hex/base64/Uint8/Uint8Buffer/bytes
+ *  @param {string} digest ~ hex/base64/Uint8/ArrayBuffer/bytes
  *  @param {function} cb ~ callback function(err,res)
  **/
 wp.enc(str, digest, cb)
@@ -64,7 +64,7 @@ wp.enc(str, digest, cb)
 /**
  *  promise
  *  @param {string} str ~ valid string to be hashed
- *  @param {string} digest ~ hex/base64/Uint8/Uint8Buffer/bytes
+ *  @param {string} digest ~ hex/base64/Uint8/ArrayBuffer/bytes
  **/
 wp.encP(str, digest)
 
