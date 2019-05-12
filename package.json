@@ -1,7 +1,7 @@
 {
   "name": "whirlpool-js",
   "version": "1.0.0",
-  "description": "whirlpool 512 bit hash in javascript for the browser",
+  "description": "whirlpool 512 bit hash in javascript for electron and the browser",
   "main": "index.js",
   "directories": {
     "lib": "lib",
