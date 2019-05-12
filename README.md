@@ -49,7 +49,7 @@ const wp = require('whirlpool-js');
  *  @param {string} str ~ valid string to be hashed
  *  @param {string} digest ~ hex/base64/Uint8/Uint8Buffer/bytes
  **/
-wp.encSync(str, digest, cb)
+wp.encSync(str, digest)
 
 
 /**
@@ -66,7 +66,7 @@ wp.enc(str, digest, cb)
  *  @param {string} str ~ valid string to be hashed
  *  @param {string} digest ~ hex/base64/Uint8/Uint8Buffer/bytes
  **/
-wp.encP(str, digest, cb)
+wp.encP(str, digest)
 
 
 // demo
