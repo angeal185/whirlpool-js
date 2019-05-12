@@ -1,6 +1,7 @@
 # whirlpool-js
 whirlpool 512 bit hash in javascript for electron and the browser
 
+Demo: https://angeal185.github.io/whirlpool-js
 
 ### Installation
 
