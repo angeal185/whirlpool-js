@@ -48,7 +48,6 @@ const wp = require('whirlpool-js');
  *  sync
  *  @param {string} str ~ valid string to be hashed
  *  @param {string} digest ~ hex/base64/Uint8/Uint8Buffer/bytes
- *  @param {function} cb ~ callback function(err,data)
  **/
 wp.encSync(str, digest, cb)
 
