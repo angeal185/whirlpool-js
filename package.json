@@ -1,0 +1,24 @@
+{
+  "name": "whirlpool-js",
+  "version": "1.0.0",
+  "description": "whirlpool 512 bit hash for the browser",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/whirlpool-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeal185/whirlpool-js/issues"
+  },
+  "homepage": "https://github.com/angeal185/whirlpool-js#readme"
+}
