@@ -1,4 +1,4 @@
-//Whirlpool js
+//Whirlpool-js ~ browser
 
 'use strict'
 

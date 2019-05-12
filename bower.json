@@ -1,0 +1,24 @@
+{
+  "name": "whirlpool-js",
+  "main": "./dist/whirlpool-js.min.js",
+  "homepage": "https://github.com/angeal185/whirlpool-js",
+  "authors": [
+    "ben eaves"
+  ],
+  "keywords": [
+    "whirlpool",
+    "hash",
+    "hashing-algorithm",
+    "hashing",
+    "javascript",
+    "electron",
+    "browser"
+  ],
+  "description": "whirlpool 512 bit hash in javascript for electron and the browser",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
