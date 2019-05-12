@@ -242,9 +242,11 @@ function WP() {
     return view
   }
 
-  // nodejs only
+  // browser only method
   function h2b64(hex) {
-    return Buffer.from(hex, 'hex').toString('base64')
+    return btoa(hex.match(/\w{2}/g).map(function(a) {
+      return String.fromCharCode(parseInt(a, 16));
+    }).join(""));
   }
 
   let res;
@@ -350,6 +352,4 @@ function WP() {
   return Whirlpool;
 }
 
-const whirlpool = new WP();
-
-module.exports = whirlpool;
+const wp = new WP();
