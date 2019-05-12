@@ -1,6 +1,6 @@
 {
   "name": "whirlpool-js",
-  "main": "./dist/whirlpool-js.min.js",
+  "main": "./dist/whirlpool-js.js",
   "homepage": "https://github.com/angeal185/whirlpool-js",
   "authors": [
     "ben eaves"
